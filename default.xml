@@ -479,7 +479,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="par" revision="lollipop" groups="pdk" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="par" revision="lollipop" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="par" revision="lollipop" groups="pdk" />
-  <project name="frameworks_webview" path="android_frameworks/webview" remote="par" revision="lollipop" groups="pdk" />
+  <project path="frameworks_webview" name="android_frameworks_webview" remote="par" revision="lollipop" groups="pdk" />
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop" />
 
@@ -501,7 +501,7 @@
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop"/>
   <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
-  <project path="vendor/motorola" name="TheMuppets/android_vendor_motorola" remote="github" revision="lollipop"/>
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0"/>
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
