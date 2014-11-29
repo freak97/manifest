@@ -11,8 +11,7 @@
 
   <remote  name="github"
             fetch="git://github.com/"
-            sync-j="4"
-            revision="lollipop" />
+            sync-j="4"/>
 
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
