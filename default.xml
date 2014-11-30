@@ -455,7 +455,6 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
   <project groups="pdk" name="platform/tools/swt" path="tools/swt"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
@@ -503,8 +502,10 @@
   </project>
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop"/>
-  <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
+  <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0"/>
+
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop"/>
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
