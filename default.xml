@@ -15,7 +15,7 @@
 
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.2_rb1.3"/>
+  <default remote="caf" revision="LA.BF.1.1.2_rb1.5"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -209,6 +209,7 @@
   <project groups="pdk-cw-fs" name="platform/external/mesa3d" path="external/mesa3d"/>
   <project groups="pdk-cw-fs" name="platform/external/messageformat" path="external/messageformat"/>
   <project groups="pdk" name="platform/external/mksh" path="external/mksh"/>
+  <project groups="pdk-cw-fs" name="platform/external/mobicore" path="external/mobicore"/>
   <project groups="pdk-cw-fs" name="platform/external/mockito" path="external/mockito"/>
   <project groups="pdk-cw-fs" name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project groups="pdk-cw-fs" name="platform/external/mp4parser" path="external/mp4parser"/>
