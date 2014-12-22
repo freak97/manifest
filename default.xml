@@ -468,7 +468,7 @@
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
 
 <!-- AOSParadox Stuff -->
-  <project path="build" name="android_build" remote="par" revision="lollipop" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="par" revision="lollipop_dev" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="par" revision="lollipop" groups="pdk" />
