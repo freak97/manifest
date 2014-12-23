@@ -5,6 +5,9 @@
             sync-j="4"
             revision="lollipop" />
 
+  <remote  name="aosparadox"
+           fetch="ssh://git@github.com/aosparadox/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
