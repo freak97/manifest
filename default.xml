@@ -509,7 +509,7 @@
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop"/>
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0"/>
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop"/>
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
