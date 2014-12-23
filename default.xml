@@ -328,7 +328,6 @@
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="pdk" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio"/>
   <project groups="pdk" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project groups="qcom,default" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
@@ -493,6 +492,9 @@
   <project path="system/qcom" name="android_system_qcom" remote="par" revision="lollipop" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="par" revision="lollipop" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="par" revision="lollipop" groups="pdk" />
+
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop"/>
+  <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop"/>
 
 <!-- Falcon Stuff -->
 
