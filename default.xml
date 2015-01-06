@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="par"
             fetch="git://github.com/aosparadox/"
+            sync-c="true"
             sync-j="4"
             revision="lollipop" />
 
@@ -13,8 +14,9 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-            fetch="git://github.com/"
-            sync-j="4"/>
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="4"/>
 
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
