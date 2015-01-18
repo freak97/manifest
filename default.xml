@@ -518,8 +518,8 @@
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
-  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-4.8" remote="github" revision="master" />
-  <project name="SaberMod/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-SM-4.9" remote="github" revision="master" />
+  <project name="arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-androideabi-4.9" remote="par" revision="lollipop" />
+  <project name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="par" revision="lollipop" />
 <!-- END Toolchains -->
 
 <!-- END AOSParadox Stuff -->
