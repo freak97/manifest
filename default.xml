@@ -23,7 +23,7 @@
 	   fetch="git://codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.2_rb1.11"/>
+  <default remote="caf" revision="LA.BF.1.1.2_rb1.12"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -340,6 +340,7 @@
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project groups="qcom,default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
@@ -379,7 +380,6 @@
   <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
-  <project name="platform/packages/apps/OMA-DM" path="packages/apps/OMA-DM"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
