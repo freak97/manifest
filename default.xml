@@ -255,7 +255,6 @@
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt"/>
   <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly"/>
-  <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/skia" path="external/skia"/>
   <project groups="pdk-cw-fs" name="platform/external/smack" path="external/smack"/>
   <project groups="pdk-cw-fs" name="platform/external/smali" path="external/smali"/>
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox"/>
@@ -490,6 +489,8 @@
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="par" revision="lollipop" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="par" revision="lollipop" groups="pdk" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="par" revision="lollipop" groups="pdk" />
+
+  <project groups="pdk-cw-fs,qcom_msm8x26" name="android_external_skia" path="external/skia"  remote="par" revision="lollipop"/>
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop" />
 
