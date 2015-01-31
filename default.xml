@@ -45,7 +45,6 @@
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
@@ -473,6 +472,8 @@
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
 
 <!-- AOSParadox Stuff -->
+  <project groups="pdk" name="android_art" path="art" remote="par" revision="lollipop" />
+
   <project path="build" name="android_build" remote="par" revision="lollipop_dev" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
