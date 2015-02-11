@@ -13,6 +13,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod/" />
+
   <remote  name="github"
            fetch="git://github.com/"
            sync-c="true"
@@ -433,10 +436,6 @@
   <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
   <project groups="pdk" name="platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps"/>
   <project groups="pdk" name="platform/prebuilts/eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"/>
   <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6"/>
   <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
@@ -521,9 +520,8 @@
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
-  <!-- In coming ... -->
-  <!-- <project name="arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-androideabi-4.8-PAR" remote="par" revision="lollipop" /> -->
-  <project name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-PAR" remote="par" revision="lollipop" />
+  <project groups="pdk,linux,arm" name="arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-SM" remote="sm" revision="master"/>
+  <project groups="pdk,linux,arm" name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-SM" remote="sm" revision="master" />
 <!-- END Toolchains -->
 
 <!-- END AOSParadox Stuff -->
