@@ -514,9 +514,9 @@
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop"/>
-  <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop"/>
+  <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop_dev"/>
+  <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_dev"/>
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop_dev"/>
 <!-- END Falcon Stuff -->
 
 <!-- Toolchains -->
