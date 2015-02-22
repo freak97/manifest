@@ -90,7 +90,7 @@
   <project name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"/>
   <project name="platform/external/chromium_org/third_party/freetype" path="external/chromium_org/third_party/freetype"/>
   <project name="platform/external/chromium_org/third_party/icu" path="external/chromium_org/third_party/icu"/>
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
+  <project name="platform/external/chromium_org/third_party/leveldatabase/src" path="external/chromium_org/third_party/leveldatabase/src"/>
   <project name="platform/external/chromium_org/third_party/libaddressinput/src" path="external/chromium_org/third_party/libaddressinput/src"/>
   <project name="platform/external/chromium_org/third_party/libjingle/source/talk" path="external/chromium_org/third_party/libjingle/source/talk"/>
   <project name="platform/external/chromium_org/third_party/libjpeg_turbo" path="external/chromium_org/third_party/libjpeg_turbo"/>
@@ -518,11 +518,6 @@
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_dev"/>
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop_dev"/>
 <!-- END Falcon Stuff -->
-
-<!-- Toolchains -->
-  <project groups="pdk,linux,arm" name="arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-SM" remote="sm" revision="master"/>
-  <project groups="pdk,linux,arm" name="arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-SM" remote="sm" revision="master" />
-<!-- END Toolchains -->
 
 <!-- END AOSParadox Stuff -->
 </manifest>
