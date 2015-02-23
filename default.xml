@@ -477,7 +477,7 @@
 <!-- AOSParadox Stuff -->
   <project groups="pdk" name="android_art" path="art" remote="par" revision="lollipop" />
 
-  <project path="build" name="android_build" remote="par" revision="lollipop_dev" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="par" revision="test" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="par" revision="lollipop" groups="pdk" />
