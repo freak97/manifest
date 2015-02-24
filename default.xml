@@ -338,12 +338,10 @@
   <project groups="pdk" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio"/>
   <project groups="pdk" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project groups="qcom,default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5"/>
   <project groups="pdk" name="platform/hardware/ti/omap3" path="hardware/ti/omap3"/>
@@ -509,6 +507,8 @@
 
   <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="lollipop"/>
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop"/>
+  <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop"/>
+  <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop"/>
 
 <!-- Falcon Stuff -->
 
