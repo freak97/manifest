@@ -26,7 +26,7 @@
 	   fetch="git://codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.2_rb1.14"/>
+  <default remote="caf" revision="LA.BF.1.1.2_rb1.15"
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -48,6 +48,7 @@
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
+  <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
@@ -304,16 +305,22 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/opt/mms" path="frameworks/opt/mms"/>
   <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
   <project groups="frameworks_ims,pdk-cw-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
+  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/widget" path="frameworks/opt/widget"/>
+  <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/support" path="frameworks/support"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/testing" path="frameworks/testing"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/volley" path="frameworks/volley"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project groups="pdk" name="platform/hardware/akm" path="hardware/akm"/>
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
@@ -456,7 +463,13 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
+  <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
+  <project groups="pdk" name="platform/system/media" path="system/media"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
+  <project groups="pdk" name="platform/system/security" path="system/security"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project groups="pdk" name="platform/tools/build" path="tools/build"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
@@ -475,33 +488,20 @@
 <!-- AOSParadox Stuff -->
   <project groups="pdk" name="android_art" path="art" remote="par" revision="lollipop" />
 
-  <project path="build" name="android_build" remote="par" revision="test" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="par" revision="lollipop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="par" revision="lollipop" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="par" revision="lollipop" />
+
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="par" revision="lollipop" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="par" revision="lollipop" groups="pdk" />
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="par" revision="lollipop" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="par" revision="lollipop" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="par" revision="lollipop" groups="pdk" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="par" revision="lollipop" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="par" revision="lollipop" groups="pdk" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="par" revision="lollipop" groups="pdk" />
-
   <project groups="pdk-cw-fs,qcom_msm8x26" name="android_external_skia" path="external/skia"  remote="par" revision="lollipop"/>
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="lollipop" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="par" revision="lollipop" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="par" revision="lollipop" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="par" revision="lollipop" />
-  <project path="system/qcom" name="android_system_qcom" remote="par" revision="lollipop" groups="pdk" />
-  <project path="system/security" name="android_system_security" remote="par" revision="lollipop" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="par" revision="lollipop" groups="pdk" />
 
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop"/>
 
@@ -518,9 +518,9 @@
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop_dev"/>
-  <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_dev"/>
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop_dev"/>
+  <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop"/>
+  <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop"/>
+  <project path="vendor/motorola" name="KonstaT/proprietary_vendor_motorola" remote="github" revision="cm-12.0"/>
 <!-- END Falcon Stuff -->
 
 <!-- END AOSParadox Stuff -->
