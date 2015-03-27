@@ -516,6 +516,8 @@
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="par" revision="lollipop_falcon"/>
 
+  <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
+
 <!-- Falcon Stuff -->
 
   <project name="android_device_qcom_msm8226" path="device/qcom/msm8226" remote="par" revision="lollipop_falcon"/>
