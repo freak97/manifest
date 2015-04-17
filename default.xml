@@ -528,7 +528,7 @@
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop_falcon"/>
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_falcon"/>
-  <project path="vendor/motorola" name="KonstaT/proprietary_vendor_motorola" remote="github" revision="cm-12.0"/>
+  <project path="vendor/motorola" name="KonstaT/proprietary_vendor_motorola" remote="github" revision="cm-12.1"/>
 <!-- END Falcon Stuff -->
 
 <!-- END AOSParadox Stuff -->
