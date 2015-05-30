@@ -496,6 +496,7 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="lollipop_falcon"/>
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="par" revision="lollipop_falcon"/>
 
   <project path="frameworks/av" name="android_frameworks_av" remote="par" revision="lollipop_falcon" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop_falcon" groups="pdk-cw-fs" />
