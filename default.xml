@@ -527,7 +527,7 @@
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop_falcon"/>
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_falcon"/>
-  <project path="vendor/motorola" name="Tproprietary_vendor_motorola" remote="par" revision="lollipop_falcon"/>
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="par" revision="lollipop_falcon"/>
 <!-- END Falcon Stuff -->
 
 <!-- END AOSParadox Stuff -->
