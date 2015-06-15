@@ -348,7 +348,6 @@
   <project groups="pdk" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio"/>
   <project groups="pdk" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
-  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
@@ -514,8 +513,7 @@
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop_falcon"/>
-
-  <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
+  <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_falcon"/>
 
 <!-- Falcon Stuff -->
 
