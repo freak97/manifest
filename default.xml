@@ -261,6 +261,7 @@
   <project groups="pdk-cw-fs" name="platform/external/robolectric" path="external/robolectric"/>
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt"/>
+  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly"/>
   <project groups="pdk-cw-fs" name="platform/external/smack" path="external/smack"/>
   <project groups="pdk-cw-fs" name="platform/external/smali" path="external/smali"/>
@@ -292,6 +293,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
@@ -300,6 +302,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
@@ -470,7 +473,7 @@
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
-  <project groups="pdk" name="platform/system/qcom" path="system/qcom"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project groups="pdk" name="platform/tools/build" path="tools/build"/>
@@ -497,12 +500,10 @@
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="lollipop_falcon"/>
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="par" revision="lollipop_falcon"/>
+  <project groups="pdk-cw-fs,qcom_msm8x26" name="android_external_skia" path="external/skia"  remote="par" revision="lollipop_falcon"/>
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="par" revision="lollipop_falcon" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop_falcon" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="par" revision="lollipop_falcon" groups="pdk" />
-  <project groups="pdk-cw-fs,qcom_msm8x26" name="android_external_skia" path="external/skia"  remote="par" revision="lollipop_falcon"/>
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_falcon" />
 
