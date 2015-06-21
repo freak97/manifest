@@ -350,6 +350,7 @@
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5"/>
   <project groups="pdk" name="platform/hardware/ti/omap3" path="hardware/ti/omap3"/>
@@ -468,6 +469,8 @@
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd"/>
+  <project groups="pdk" name="platform/system/qcom" path="system/qcom"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project groups="pdk" name="platform/tools/build" path="tools/build"/>
@@ -504,14 +507,11 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_falcon" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="lollipop_falcon" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="par" revision="lollipop_falcon" />
-  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="lollipop_falcon" />
 
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
 
   <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_falcon"/>
-  <project groups="qcom,default" name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_falcon"/>
 
