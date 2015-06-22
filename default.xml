@@ -475,7 +475,6 @@
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
-  <project name="platform/system/qcom" path="system/qcom"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project groups="pdk" name="platform/tools/build" path="tools/build"/>
@@ -507,6 +506,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_falcon" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="lollipop_falcon" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="lollipop_falcon" />
 
   <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="lollipop_falcon"/>
   <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_falcon"/>
