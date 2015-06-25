@@ -26,7 +26,7 @@
   <project path="kernel/asus/grouper" name="OptiPop/kernel_asus_grouper" remote="gh" revision="opti-5.1" />
   <project path="device/asus/flo" name="OptiPop/device_asus_flo" remote="gh" revision="opti-5.1" />
   <project path="kernel/asus/kernel-flo" name="freak97/Vindicator-flo-aosp" remote="gh" revision="master" />
-  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="opti-5.1" />
+  <project path="device/moto/shamu" name="freak97/device_moto_shamu" remote="gh" revision="opti-5.1" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="master" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
