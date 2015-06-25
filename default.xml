@@ -7,7 +7,7 @@
            fetch="https://github.com/" />
   <remote name="bb"
            fetch="https://bitbucket.org/" />
-  <default revision="refs/tags/android-5.1.1_r4"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="8" />
 
@@ -103,7 +103,7 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="opti-5.1" />
+  <project path="external/flac" name="freak97/external_flac" remote="gh" revision="opti-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
@@ -271,7 +271,7 @@
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="lp5.1" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="lp5.1" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -285,7 +285,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" />
-  <project path="frameworks/opt/telephony" name="OptiPop/frameworks_opt_telephony" remote="gh" revision="opti-5.1" />
+  <project path="frameworks/opt/telephony" name="freak97/frameworks_opt_telephony" remote="gh" revision="opti-5.1" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
@@ -329,11 +329,11 @@
   <project path="packages/apps/Contacts" name="OptiPop/packages_apps_Contacts" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="opti-5.1" />
-  <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="opti-5.1" />
+  <project path="packages/apps/Dialer" name="freak97/packages_apps_Dialer" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="OptiPop/packages_apps_Gallery2" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="OptiPop/packages_apps_InCallUI" remote="gh" revision="opti-5.1" />
+  <project path="packages/apps/InCallUI" name="freak97/packages_apps_InCallUI" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="OptiPop/packages_apps_Launcher3"  remote="gh" revision="opti-5.1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -357,18 +357,18 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="OptiPop/packages_inputmethods_LatinIME" remote="gh" revision="opti-5.1" />
+  <project path="packages/inputmethods/LatinIME" name="freak97/packages_inputmethods_LatinIME" remote="gh" revision="opti-5.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="OptiPop/packages_providers_DownloadProvider" remote="gh" revision="opti-5.1" />
   <project path="packages/providers/MediaProvider" name="OptiPop/packages_providers_MediaProvider" remote="gh" revision="opti-5.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="OptiPop/packages_providers_TelephonyProvider" remote="gh" revision="opti-5.1" />
+  <project path="packages/providers/TelephonyProvider" name="freak97/packages_providers_TelephonyProvider" remote="gh" revision="opti-5.1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="OptiPop/packages_services_Telecomm" remote="gh" revision="opti-5.1" />
-  <project path="packages/services/Telephony" name="OptiPop/packages_services_Telephony" remote="gh" revision="opti-5.1" />
+  <project path="packages/services/Telecomm" name="freak97/packages_services_Telecomm" remote="gh" revision="opti-5.1" />
+  <project path="packages/services/Telephony" name="freak97/packages_services_Telephony" remote="gh" revision="opti-5.1" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" />
@@ -394,7 +394,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="OptiPop/system_core" remote="gh" revision="opti-5.1" />
+  <project path="system/core" name="freak97/system_core" remote="gh" revision="opti-5.1" />
   <project path="system/extras" name="OptiPop/system_extras" remote="gh" revision="opti-5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" />
   <project path="system/media" name="platform/system/media" />
