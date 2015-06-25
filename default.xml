@@ -11,12 +11,12 @@
            remote="aosp"
            sync-j="8" />
 
-<project path="build" name="OptiPop/build" remote="gh" revision="opti-5.1" >
+<project path="build" name="freak97/build" remote="gh" revision="opti-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="art" name="OptiPop/art" remote="gh" revision="opti-5.1" />
-  <project path="bionic" name="OptiPop/bionic" remote="gh" revision="opti-5.1" />
+  <project path="art" name="freak97/art" remote="gh" revision="opti-5.1" />
+  <project path="bionic" name="freak97/bionic" remote="gh" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="OptiPop/bootable_recovery" remote="gh" revision="opti-5.1" />
   <project path="dalvik" name="platform/dalvik" />
@@ -26,14 +26,8 @@
   <project path="kernel/asus/grouper" name="OptiPop/kernel_asus_grouper" remote="gh" revision="opti-5.1" />
   <project path="device/asus/flo" name="OptiPop/device_asus_flo" remote="gh" revision="opti-5.1" />
   <project path="kernel/asus/kernel-flo" name="freak97/Vindicator-flo-aosp" remote="gh" revision="master" />
-  <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="opti-5.1" />
-  <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
-  <project path="device/lge/mako" name="OptiPop/device_lge_mako" remote="gh" revision="opti-5.1" />
-  <project path="kernel/lge/mako" name="hellsgod/hells-Core-N4" remote="gh" revision="l-mr1" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="opti-5.1" />
   <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="master" />
-  <project path="device/samsung/manta" name="OptiPop/android_device_samsung_manta" remote="gh" revision="master" />
-  <project path="kernel/samsung/manta" name="khaon/android_kernel_samsung_manta" remote="gh" revision="khaon-new" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -263,8 +257,8 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="OptiPop/frameworks_av" remote="gh" revision="opti-5.1" />
-  <project path="frameworks/base" name="OptiPop/frameworks_base" remote="gh" revision="opti-5.1"  />
+  <project path="frameworks/av" name="freak97/frameworks_av" remote="gh" revision="opti-5.1" />
+  <project path="frameworks/base" name="freak97/frameworks_base" remote="gh" revision="opti-5.1"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -273,10 +267,11 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" />
-  <project path="frameworks/native" name="OptiPop/frameworks_native" remote="gh" revision="opti-5.1" />
+  <project path="frameworks/native" name="freak97/frameworks_native" remote="gh" revision="opti-5.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -319,7 +314,7 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/samsung_slsi/exynos5" name="Optipop/hardware_samsung_slsi_exynos5" remote="gh" revision="opti-5.1" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="libcore" name="OptiPop/libcore" remote="gh" revision="opti-5.1" />
+  <project path="libcore" name="freak97/libcore" remote="gh" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="manifest" name="OptiPop/manifest" remote="gh" revision="opti-5.1" />
   <project path="ndk" name="platform/ndk" />
@@ -353,7 +348,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="OptiPop/packages_apps_ScreenRecorder" remote="gh" revision="opti-5.1" />
-  <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="opti-5.1" />
+  <project path="packages/apps/Settings" name="freak97/packages_apps_settings" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -384,8 +379,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
