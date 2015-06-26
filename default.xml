@@ -400,7 +400,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="opti-5.1" />
+  <project path="system/vold" name="freak97/system_vold" remote="gh" revision="opti-5.1" />
   <project path="tools/base" name="platform/tools/base" />
   <project path="tools/build" name="platform/tools/build" />
   <project path="tools/idea" name="platform/tools/idea" />
