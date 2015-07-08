@@ -481,7 +481,6 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
   <project groups="pdk" name="platform/tools/swt" path="tools/swt"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
@@ -514,6 +513,7 @@
   <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_falcon"/>
 
   <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
+  <project name="AOSParadox/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
 
 <!-- Falcon Stuff -->
 
