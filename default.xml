@@ -366,30 +366,21 @@
   <project name="platform/ndk" path="ndk"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
-  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
-  <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
@@ -398,10 +389,7 @@
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
-  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
@@ -503,6 +491,17 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop_falcon" groups="pdk-cw-fs" />
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Camera" path="packages/apps/Camera" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Gallery" path="packages/apps/Gallery" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_Music" path="packages/apps/Music" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="par" revision="lollipop_falcon" />
+  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="par" revision="lollipop_falcon" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="lollipop_falcon" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="lollipop_falcon" />
@@ -515,6 +514,7 @@
   <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
 
+  <project path="manifest" name="local_aosparadox" remote="par" revision="lollipop_falcon"/>
 <!-- Falcon Stuff -->
 
   <project name="android_device_qcom_msm8226" path="device/qcom/msm8226" remote="par" revision="lollipop_falcon"/>
