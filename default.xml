@@ -513,7 +513,7 @@
   <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_falcon"/>
 
   <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
-  <project name="AOSParadox/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
 
 <!-- Falcon Stuff -->
 
