@@ -19,7 +19,7 @@
   <project path="bionic" name="freak97/bionic" remote="gh" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="OptiPop/bootable_recovery" remote="gh" revision="opti-5.1" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="freak97/dalvik" remote="gh" revision="opti-5.1" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/asus/grouper" name="OptiPop/device_asus_grouper" remote="gh" revision="opti-5.1" />
@@ -317,7 +317,7 @@
   <project path="libcore" name="freak97/libcore" remote="gh" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="manifest" name="OptiPop/manifest" remote="gh" revision="opti-5.1" />
-  <project path="ndk" name="platform/ndk" />
+  <project path="ndk" name="freak97/ndk" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="OptiPop/packages_apps_Browser" remote="gh" revision="opti-5.1" />
