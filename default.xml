@@ -480,42 +480,34 @@
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
 
 <!-- AOSParadox Stuff -->
-  <project path="build" name="android_build" remote="par" revision="lollipop_falcon" groups="pdk,tradefed" >
+
+<!-- QCOM MSM8226 -->
+
+  <project path="build" name="android_build" remote="par" revision="lollipop_msm8226" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop_msm8226" groups="pdk-cw-fs" />
+
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_msm8226" />
+  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="lollipop_msm8226" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="lollipop_msm8226" />
+  <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="lollipop_msm8226" />
+
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="lollipop_msm8226" />
+
+
+  <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="lollipop_msm8226"/>
+  <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_msm8226"/>
+  <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop_msm8226"/>
+  <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_msm8226"/>
+
+  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_msm8226"/>
+
+<!-- Falcon -->
+
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="lollipop_falcon"/>
-
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
-
-  <project path="frameworks/base" name="android_frameworks_base" remote="par" revision="lollipop_falcon" groups="pdk-cw-fs" />
-
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Camera" path="packages/apps/Camera" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Gallery" path="packages/apps/Gallery" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_Music" path="packages/apps/Music" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="par" revision="lollipop_falcon" />
-  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="par" revision="lollipop_falcon" />
-
   <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="lollipop_falcon" />
-  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="lollipop_falcon" />
-
-  <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="lollipop_falcon"/>
-  <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="lollipop_falcon"/>
-  <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="lollipop_falcon"/>
-  <project groups="qcom,default" name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="lollipop_falcon"/>
-
-  <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
-  <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="par" revision="lollipop_falcon"/>
-
-  <project path="manifest" name="local_aosparadox" remote="par" revision="lollipop_falcon"/>
-<!-- Falcon Stuff -->
 
   <project name="android_device_qcom_msm8226" path="device/qcom/msm8226" remote="par" revision="lollipop_falcon"/>
   <project name="android_device_qcom_common" path="device/qcom/common" remote="par" revision="lollipop_falcon">
@@ -526,7 +518,28 @@
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="lollipop_falcon"/>
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="lollipop_falcon"/>
   <project path="vendor/motorola/falcon" name="proprietary_vendor_motorola" remote="par" revision="lollipop_falcon"/>
-<!-- END Falcon Stuff -->
+
+  <project path="manifest" name="local_aosparadox" remote="par" revision="lollipop_falcon"/>
+
+<!-- Busybox -->
+
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.1" />
+
+<!-- Common -->
+
+  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_Camera" path="packages/apps/Camera" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_Gallery" path="packages/apps/Gallery" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_Music" path="packages/apps/Music" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="par" revision="lollipop_common" />
+  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="par" revision="lollipop_common" />
+
+<!-- AOSParadox Vendor -->
+
+  <project path="vendor/aosparadox" name="android_vendor_aosparadox" remote="par" revision="lollipop"/>
+
 
 <!-- END AOSParadox Stuff -->
 </manifest>
