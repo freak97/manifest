@@ -461,7 +461,7 @@
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="marshmallow_audio"/>
+  <project groups="qcom,default" name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="par" revision="marshmallow_falcon"/>
 
   <project path="device/motorola/falcon" name="android_device_motorola_falcon" remote="par" revision="marshmallow_falcon"/>
   <project path="kernel" name="android_kernel_motorola_msm8226" remote="par" revision="marshmallow_falcon"/>
