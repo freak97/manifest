@@ -309,8 +309,6 @@
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
-  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
@@ -336,7 +334,7 @@
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
+  <!-- <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/> -->
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
@@ -447,7 +445,7 @@
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="marshmallow_msm8974" />
 
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="par" revision="marshmallow_msm8974" />
-
+  <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="marshmallow_msm8974" />
 
   <project groups="qcom,default" name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="par" revision="marshmallow_msm8974"/>
   <project groups="qcom,default" name="android_hardware_qcom_display" path="hardware/qcom/display" remote="par" revision="marshmallow_msm8974"/>
@@ -457,7 +455,8 @@
 <!-- Falcon -->
 
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="par" revision="marshmallow_falcon"/>
-  <project path="system/core" name="android_system_core" groups="pdk" remote="par" revision="marshmallow_falcon" />
+
+  <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="par" revision="marshmallow_falcon"/>
 
   <project name="android_device_qcom_msm8226" path="device/qcom/msm8226" remote="par" revision="marshmallow_falcon"/>
   <project name="android_device_qcom_common" path="device/qcom/common" remote="par" revision="marshmallow_falcon">
