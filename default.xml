@@ -28,7 +28,7 @@
 	   fetch="git://codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.3_rb1.2"/>
+  <default remote="caf" revision="LA.BF.1.1.3_rb1.4"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -309,7 +309,7 @@
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
-  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
@@ -319,12 +319,14 @@
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
+  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
@@ -335,7 +337,7 @@
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <!-- <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/> -->
+  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
@@ -444,8 +446,6 @@
   <project name="android_frameworks_support" path="frameworks/support" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
 
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="par" revision="marshmallow_msm8974" groups="pdk-cw-fs" />
-  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="par" revision="marshmallow_msm8974" />
-  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="par" revision="marshmallow_msm8974" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="par" revision="marshmallow_msm8974" />
   <project name="android_packages_apps_packageinstaller" path="packages/apps/PackageInstaller" remote="par" revision="marshmallow_msm8974" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="par" revision="marshmallow_msm8974" />
