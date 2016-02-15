@@ -2,11 +2,9 @@
 <manifest>
   <remote name="freak97"
           fetch="https://github.com/freak97/" />
-  <remote name="dtc"
-          fetch="https://github.com/dragon-tc/" />
           
   <default remote="freak97"
-           revision="release_38"
+           revision="release_39"
            sync-c="true"
            sync-j="8" />
            
@@ -16,7 +14,7 @@
   <project path="llvm/projects/compiler-rt" name="compiler-rt" />
   <project path="llvm/projects/libcxxabi" name="libcxxabi" />
   <project path="llvm/projects/libcxx" name="libcxx" />
-  <project path="llvm/projects/libunwind" remote="dtc" name="libunwind" />
+  <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
   <project path="llvm/tools/binutils" name="binutils" revision="master" />

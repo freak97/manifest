@@ -12,7 +12,7 @@ It's simple! Run the following commands in bash to get set up:
 ```
 $ mkdir dtc
 $ cd dtc
-$ repo init -u https://github.com/dragon-tc/DragonTC -b master
+$ repo init -u https://github.com/freak97/manifest -b master
 $ repo sync -j(# of cores) -c -f
 ```
 For Debian and Ubuntu:
