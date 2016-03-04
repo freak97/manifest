@@ -2,20 +2,22 @@
 <manifest>
   <remote name="freak97"
           fetch="https://github.com/freak97/" />
+  <remote name="llvm"
+          fetch="https://github.com/llvm-mirror/" />
           
-  <default remote="freak97"
-           revision="release_39"
+  <default remote="llvm"
+           revision="master"
            sync-c="true"
            sync-j="8" />
            
-  <project path="llvm" name="llvm" />
-  <project path="llvm/tools/clang" name="clang" />
+  <project path="llvm" name="llvm" remote="freak97" revision="master" />
+  <project path="llvm/tools/clang" name="clang" remote="freak97" revision="master" />
   <project path="llvm/tools/polly" name="polly" />
   <project path="llvm/projects/compiler-rt" name="compiler-rt" />
   <project path="llvm/projects/libcxxabi" name="libcxxabi" />
   <project path="llvm/projects/libcxx" name="libcxx" />
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
-  <project path="build" name="build" revision="master" />
-  <project path="llvm/tools/binutils" name="binutils" revision="master" />
+  <project path="build" name="build" remote="freak97" revision="master" />
+  <project path="llvm/tools/binutils" name="binutils" remote="freak97" revision="master" />
 </manifest>
