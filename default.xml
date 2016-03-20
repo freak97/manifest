@@ -4,10 +4,13 @@
           fetch="https://github.com/freak97/" />
   <remote name="llvm"
           fetch="https://github.com/llvm-mirror/" />
-          
+  <remote name="binutils"
+          fetch="http://sourceware.org/git/" />
+
   <default remote="llvm"
            revision="master"
            sync-c="true"
+           sync-f="true"
            sync-j="8" />
            
   <project path="llvm" name="llvm" remote="freak97" revision="master" />
@@ -19,5 +22,5 @@
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" remote="freak97" revision="master" />
-  <project path="llvm/tools/binutils" name="binutils" remote="freak97" revision="master" />
+  <project path="llvm/tools/binutils" name="binutils-gdb.git" remote="binutils" revision="master" />
 </manifest>
